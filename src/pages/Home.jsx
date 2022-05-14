@@ -8,20 +8,11 @@ const Home = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const res = await fetch('../data.json');
-  //     const data = await res.json();
-  //     console.log(data);
-  //   };
-  //   fetchData();
-  // }, []);
-
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
       setData(Data);
-    }, 3000);
+    }, 1000);
   }, []);
 
   const trending = data.filter((x) => x.isTrending);

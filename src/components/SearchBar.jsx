@@ -32,7 +32,7 @@ const SearchBar = () => {
       <form className="w-5/6">
         <div className="w-full">
           <input
-            className="w-full pt-2 pb-3 font-sans text-white placeholder-gray-500 bg-transparent border-b border-transparent outline-none focus:border-greyish_blue focus:caret-logo_red"
+            className="w-full pt-2 pb-3 font-sans text-white placeholder-gray-500 bg-transparent border-b border-transparent outline-0 focus:border-greyish_blue focus:caret-logo_red"
             type="text"
             placeholder={placeholderText()}
           />

@@ -8,14 +8,14 @@ import Avatar from '../assets/avatar-placeholder-2.png';
 
 const Navbar = () => {
   return (
-    <div className="bg-semi_dark_blue py-4 px-4 w-full">
-      <div className="flex justify-between items-center">
+    <div className="w-full px-4 py-4 shadow-xl bg-semi_dark_blue">
+      <div className="flex items-center justify-between">
         <div>
           <Link to="/">
             <img src={Logo} alt="logo" />
           </Link>
         </div>
-        <ul className="flex justify-between items-center gap-6">
+        <ul className="flex items-center justify-between gap-6">
           <li>
             <Link to="/">
               <img src={HomeIcon} alt="home" className="hover:brightness-[2000]" />
@@ -32,9 +32,12 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="w-8 rounded-full overflow-hidden">
+        <Link
+          to="/profile"
+          className="w-8 overflow-hidden bg-transparent border-0 rounded-full outline-0"
+        >
           <img src={Avatar} alt="avatar" />
-        </div>
+        </Link>
       </div>
     </div>
   );

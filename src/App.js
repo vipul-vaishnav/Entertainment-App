@@ -21,9 +21,9 @@ const App = () => {
             <Route path="/bookmarks" element={<Bookmarks />} />
             <Route path="/movies" element={<Movies />} />
             <Route path="/tv-series" element={<TvSeries />} />
+            <Route path="/profile" element={<Profile />} />
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<SignUp />} />
-            <Route path="/profile" element={<Profile />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
