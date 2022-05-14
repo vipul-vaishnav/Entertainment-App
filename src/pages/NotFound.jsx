@@ -14,9 +14,9 @@ const NotFound = () => {
       </p>
       <Link
         to="/"
-        className="flex items-center justify-center gap-4 px-4 py-2 pb-3 mx-auto mt-6 text-white rounded-md shadow-lg w-max bg-logo_red hover:scale-95 hover:text-black"
+        className="flex items-center justify-center gap-4 px-4 py-3 pb-4 mx-auto mt-6 text-white rounded-md shadow-lg w-max bg-logo_red hover:scale-95 hover:bg-semi_dark_blue"
       >
-        <ArrowIcon width="16px" height="16px" />
+        <ArrowIcon width="16px" height="16px" fill="#ffffff" />
         <p className="font-semibold">Back Home</p>
       </Link>
     </div>
