@@ -24,3 +24,4 @@ yarn-error.log*
 
 # config
 configvipul
+firebase.config.js
