@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <div className="bg-dark_blue">
+        <div className="min-h-screen bg-dark_blue">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

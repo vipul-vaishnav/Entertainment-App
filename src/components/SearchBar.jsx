@@ -25,14 +25,14 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="px-4 my-4 flex justify-start items-center gap-1">
+    <div className="flex items-center justify-start px-4 my-4">
       <div className="w-1/6">
         <img src={SearchIcon} alt="search-icon" className="h-full scale-90" />
       </div>
       <form className="w-5/6">
         <div className="w-full">
           <input
-            className="w-full border-b border-transparent outline-none bg-transparent font-sans placeholder-gray-500 text-white pt-2 pb-3  focus:border-greyish_blue focus:caret-logo_red"
+            className="w-full pt-2 pb-3 font-sans text-white placeholder-gray-500 bg-transparent border-b border-transparent outline-none focus:border-greyish_blue focus:caret-logo_red"
             type="text"
             placeholder={placeholderText()}
           />
